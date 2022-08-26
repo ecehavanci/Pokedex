@@ -26,35 +26,39 @@ function SpecificPokemon() {
                     <ol key={data.Number} >{
                         <div>
                             <table cellPadding={"7px"}>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>{data.Name}</td>
-                                </tr>
-                                <tr>
-                                    <td>Classification</td>
-                                    <td>{data.Classification}</td>
-                                </tr>
-                                <tr>
-                                    <td>Fast Attacks</td>
-                                    <td>{
-                                        data["Fast Attack(s)"].toString()
-                                    }</td>
-                                </tr>
-                                <tr>
-                                    <td>Weight</td>
-                                    <td>{data.Height}</td>
-                                </tr>
-                                <tr>
-                                    <td>Height</td>
-                                    <td>{data.Weight}</td>
-                                </tr>
-                                <tr>
-                                    <td>Special Attacks</td>
-                                    <td>{
-                                        data[
-                                            "Special Attack(s)"].toString()
-                                    }</td>
-                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>Name</td>
+                                        <td>{data.Name}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Classification</td>
+                                        <td>{data.Classification}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fast Attacks</td>
+                                        <td>{
+                                            data["Fast Attack(s)"].toString()
+                                        }</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Weight</td>
+                                        <td>{data.Height}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Height</td>
+                                        <td>{data.Weight}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Special Attacks</td>
+                                        <td>{
+                                            data[
+                                                "Special Attack(s)"].toString()
+                                        }</td>
+
+                                    </tr>
+
+                                </tbody>
                             </table>
                         </div>
                     }
